@@ -1,0 +1,14 @@
+Download Extension
+firefox pywalfox
+
+
+for zsh
+setup
+powerlevel10k
+
+for zsh autosuggestions
+
+.zshrc
+  HISTSIZE=10000
+  SAVEHIST=10000
+  HISTFILE=~/.history

@@ -1,0 +1,64 @@
+configuration {
+    font: "JetBrainsMono Nerd Font 12";	
+	  show-icons: true;
+  	drun-display-format: "{name}";
+  	steal-focus: true;
+    icon-theme: "WhiteSur";
+  	display-drun: "LAUNCH";
+    display-filebrowser: " ";
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+
+
+@import "~/.cache/wal/colors-rofi-dark"
+
+*{
+  margin:0;
+}
+window{
+  transparency: "real";
+  background-color: #00000000;
+  height:100%;
+  width:100%;
+  padding: 200px 500px;
+}
+
+mainbox{
+  children: [inputbar,listview];
+  padding: 10 0 20 20;
+}
+
+inputbar{
+  padding: 10 0;
+}
+
+entry{
+  placeholder: "  Search.. ";
+  cursor-width: 3px;
+  blink: false;
+}
+
+element-icon{
+  size: 40;
+  padding: 0 10;
+}
+
+element-text{
+  vertical-align:0.5;
+}
+
+listview{
+  lines: 5;
+  dynamic:true;
+  fixed-height:true;
+  scrollbar: false;
+  spacing: 10;
+  padding: 10 20 0 0;
+}
