@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/sameed/Pictures/wallpapers/redux.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0C1F",
+        "foreground": "#ecdfec",
+        "cursor": "#ecdfec"
+    },
+    "colors": {
+        "color0": "#0D0C1F",
+        "color1": "#2E5298",
+        "color2": "#5B5FA5",
+        "color3": "#BD5BAD",
+        "color4": "#6B8FC3",
+        "color5": "#B79CC6",
+        "color6": "#E5A5DC",
+        "color7": "#ecdfec",
+        "color8": "#a59ca5",
+        "color9": "#2E5298",
+        "color10": "#5B5FA5",
+        "color11": "#BD5BAD",
+        "color12": "#6B8FC3",
+        "color13": "#B79CC6",
+        "color14": "#E5A5DC",
+        "color15": "#ecdfec"
+    }
+}

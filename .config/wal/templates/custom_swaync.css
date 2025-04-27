@@ -1,0 +1,19 @@
+@define-color cc-bg {background.rgba};
+@define-color noti-bg {background.rgba};
+
+@define-color text-color {foreground.rgba};
+@define-color noti-bg-opaque {color0.rgba};
+@define-color noti-bg-darker {color1.rgba};
+@define-color noti-bg-hover {color2.rgba};
+@define-color noti-bg-hover-opaque {color3.rgba};
+@define-color noti-bg-focus {color4.rgba};
+@define-color noti-close-bg {color5.rgba};
+@define-color text-color-disabled {color7.rgba};
+@define-color bg-selected {color8.rgba};
+@define-color noti-border-color {color2.rgba};
+@define-color color10 {color10.rgba};
+@define-color color11 {color11.rgba};
+@define-color color12 {color12.rgba};
+@define-color color13 {color13.rgba};
+@define-color color14 {color14.rgba};
+@define-color color15 {color15.rgba};

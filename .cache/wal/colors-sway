@@ -1,0 +1,21 @@
+set $wallpaper /home/sameed/Pictures/wallpapers/LegionGoFuturistic.jpg
+
+set $background #120d15
+set $foreground #d8ccd6
+
+set $color0 #120d15
+set $color1 #A7445A
+set $color2 #314F8E
+set $color3 #5C6895
+set $color4 #A1778D
+set $color5 #7289BB
+set $color6 #A291A6
+set $color7 #d8ccd6
+set $color8 #978e95
+set $color9 #A7445A
+set $color10 #314F8E
+set $color11 #5C6895
+set $color12 #A1778D
+set $color13 #7289BB
+set $color14 #A291A6
+set $color15 #d8ccd6

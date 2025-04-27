@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/sameed/Pictures/wallpapers/kHBYjei6PrFrsgQVbrhkX.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#181b18",
+        "foreground": "#bfc2c9",
+        "cursor": "#bfc2c9"
+    },
+    "colors": {
+        "color0": "#181b18",
+        "color1": "#3354A0",
+        "color2": "#595E95",
+        "color3": "#6C6A8A",
+        "color4": "#3E67CC",
+        "color5": "#8861A8",
+        "color6": "#68B6D6",
+        "color7": "#bfc2c9",
+        "color8": "#85878c",
+        "color9": "#3354A0",
+        "color10": "#595E95",
+        "color11": "#6C6A8A",
+        "color12": "#3E67CC",
+        "color13": "#8861A8",
+        "color14": "#68B6D6",
+        "color15": "#bfc2c9"
+    }
+}

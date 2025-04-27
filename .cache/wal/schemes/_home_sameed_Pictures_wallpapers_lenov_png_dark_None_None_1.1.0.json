@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/sameed/Pictures/wallpapers/lenov.png",
+    "alpha": "100",
+    "special": {
+        "background": "#03040B",
+        "foreground": "#a3c7df",
+        "cursor": "#a3c7df"
+    },
+    "colors": {
+        "color0": "#03040B",
+        "color1": "#A06754",
+        "color2": "#1C4E9C",
+        "color3": "#26599A",
+        "color4": "#546F99",
+        "color5": "#608DB1",
+        "color6": "#3D99D1",
+        "color7": "#a3c7df",
+        "color8": "#728b9c",
+        "color9": "#A06754",
+        "color10": "#1C4E9C",
+        "color11": "#26599A",
+        "color12": "#546F99",
+        "color13": "#608DB1",
+        "color14": "#3D99D1",
+        "color15": "#a3c7df"
+    }
+}

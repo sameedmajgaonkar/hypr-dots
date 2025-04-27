@@ -1,0 +1,19 @@
+@define-color cc-bg rgba(18,13,21,1.0);
+@define-color noti-bg rgba(18,13,21,1.0);
+
+@define-color text-color rgba(216,204,214,1.0);
+@define-color noti-bg-opaque rgba(18,13,21,1.0);
+@define-color noti-bg-darker rgba(167,68,90,1.0);
+@define-color noti-bg-hover rgba(49,79,142,1.0);
+@define-color noti-bg-hover-opaque rgba(92,104,149,1.0);
+@define-color noti-bg-focus rgba(161,119,141,1.0);
+@define-color noti-close-bg rgba(114,137,187,1.0);
+@define-color text-color-disabled rgba(216,204,214,1.0);
+@define-color bg-selected rgba(151,142,149,1.0);
+@define-color noti-border-color rgba(49,79,142,1.0);
+@define-color color10 rgba(49,79,142,1.0);
+@define-color color11 rgba(92,104,149,1.0);
+@define-color color12 rgba(161,119,141,1.0);
+@define-color color13 rgba(114,137,187,1.0);
+@define-color color14 rgba(162,145,166,1.0);
+@define-color color15 rgba(216,204,214,1.0);

@@ -1,0 +1,243 @@
+@import "../../.cache/wal/colors-waybar.css";
+
+@define-color bg @background;
+@define-color fg @foreground;
+@define-color textcolor @cursor;
+* {
+    font-size: 14px;
+}
+
+window#waybar {
+    font-family: JetBrains Mono;
+    background-color: transparent;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+window#waybar.termite {
+    background-color: #3F3F3F;
+}
+
+window#waybar.chromium {
+    background-color: #000000;
+    border: none;
+}
+
+#workspaces{
+    background-color: @bg;
+    color:@fg;
+    border-radius: 100em;
+    font-family: Iosevka;
+}
+
+button {
+    font-weight:bold;
+    /* box-shadow: inset 0 -3px transparent; */
+    border: none;
+    border-radius: 0;
+    background-color: @fg;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+
+
+#workspaces button {
+    padding: 0 .5em;
+    background-color: transparent;
+    color: @fg;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.urgent {
+    background-color: rgb(163, 37, 37);
+    color: @bg;
+    border-radius: 100em;
+    padding: 0 1em;
+}
+#workspaces button.empty {
+    color: @color8;
+}
+#workspaces button.focused {
+    color: @bg;
+}
+
+#workspaces button.active {
+    color: @bg;
+    background-color:@fg;
+    border-radius: 100em;
+    padding: 0 1em
+}
+
+#mode {
+    background-color: #64727D;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+
+#network,#pulseaudio,#battery,#clock {
+    background-color: @bg;
+    color:@fg;
+    padding: 0em 1em;
+    border-radius: 100em;
+    font-weight:bold;
+}
+
+#battery {
+    background-color: @bg;
+    color: #26A65B;
+}
+#network{
+    color: @color11;
+}
+#pulseaudio{
+    color: @color7;
+}
+#battery.charging, #battery.plugged {
+    color: #ffffff;
+    background-color: #26A65B;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#power-profiles-daemon {
+    padding-right: 15px;
+}
+
+#power-profiles-daemon.performance {
+    background-color: #f53c3c;
+    color: #ffffff;
+}
+
+#power-profiles-daemon.balanced {
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+#power-profiles-daemon.power-saver {
+    background-color: #2ecc71;
+    color: #000000;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#cpu {
+    background-color: #2ecc71;
+    color: #000000;
+}
+
+#network.disconnected {
+    color: #f53c3c;
+}
+
+
+#wireplumber {
+    background-color: #fff0f5;
+    color: #000000;
+}
+
+#wireplumber.muted {
+    background-color: #f53c3c;
+}
+
+#custom-media {
+    background-color: #66cc99;
+    color: #2a5c45;
+    min-width: 100px;
+}
+
+#custom-media.custom-spotify {
+    background-color: #66cc99;
+}
+
+#custom-media.custom-vlc {
+    background-color: #ffa000;
+}
+
+#temperature {
+    background-color: #f0932b;
+}
+
+#temperature.critical {
+    background-color: #eb4d4b;
+}
+
+#tray {
+    background-color: #2980b9;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #eb4d4b;
+}
+
+#idle_inhibitor {
+    background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+    background-color: #ecf0f1;
+    color: #2d3436;
+}
+
+
+
+
+#keyboard-state > label.locked {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad.empty {
+    background-color: transparent;
+}
+
+#privacy {
+    padding: 0;
+}
+
+#privacy-item {
+    padding: 0 5px;
+    color: white;
+    border-radius: 100em;
+}
+
+#privacy-item.screenshare {
+    background-color: #cf5700;
+}
+
+#privacy-item.audio-in {
+    background-color: #1ca000;
+}
+
+#privacy-item.audio-out {
+    background-color: #0069d4;
+}

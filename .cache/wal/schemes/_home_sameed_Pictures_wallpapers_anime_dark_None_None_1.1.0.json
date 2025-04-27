@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/sameed/Pictures/wallpapers/anime",
+    "alpha": "100",
+    "special": {
+        "background": "#11151a",
+        "foreground": "#d8d3c5",
+        "cursor": "#d8d3c5"
+    },
+    "colors": {
+        "color0": "#11151a",
+        "color1": "#A4926F",
+        "color2": "#377593",
+        "color3": "#877E85",
+        "color4": "#3687A2",
+        "color5": "#5C8F9C",
+        "color6": "#A1AF9F",
+        "color7": "#d8d3c5",
+        "color8": "#979389",
+        "color9": "#A4926F",
+        "color10": "#377593",
+        "color11": "#877E85",
+        "color12": "#3687A2",
+        "color13": "#5C8F9C",
+        "color14": "#A1AF9F",
+        "color15": "#d8d3c5"
+    }
+}

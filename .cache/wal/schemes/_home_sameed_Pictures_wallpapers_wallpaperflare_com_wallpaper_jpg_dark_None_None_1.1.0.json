@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/sameed/Pictures/wallpapers/wallpaperflare.com_wallpaper.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0C110A",
+        "foreground": "#cfddbd",
+        "cursor": "#cfddbd"
+    },
+    "colors": {
+        "color0": "#0C110A",
+        "color1": "#616C4F",
+        "color2": "#916E5C",
+        "color3": "#5E863D",
+        "color4": "#728E5B",
+        "color5": "#90A76F",
+        "color6": "#A6C476",
+        "color7": "#cfddbd",
+        "color8": "#909a84",
+        "color9": "#616C4F",
+        "color10": "#916E5C",
+        "color11": "#5E863D",
+        "color12": "#728E5B",
+        "color13": "#90A76F",
+        "color14": "#A6C476",
+        "color15": "#cfddbd"
+    }
+}

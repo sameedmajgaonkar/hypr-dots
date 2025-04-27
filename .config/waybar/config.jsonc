@@ -1,0 +1,170 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    "reload_style_on_change": true,
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "battery",
+        "privacy"
+    ],
+    // Modules configuration
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "  ",
+            "2": "  ",
+            "3": "  ",
+            "4": "  ",
+            // "urgent": "",
+            // "focused": "",
+            "default": ""
+        },
+        "persistent-workspaces":{
+            "1":[],
+            "2":[],
+            "3":[],
+            "4":[]
+        }
+    },
+    
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}",
+        "format": "{:%I:%M %p}"
+    },
+
+    "cava": {
+            //    "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+                "framerate": 30,
+                "hide_on_silence": true,
+                "sleep_timer":5,
+                "autosens": 1,
+                "sensitivity": 100,
+                "bars": 5,
+                "lower_cutoff_freq": 50,
+                "higher_cutoff_freq": 10000,
+                "method": "pulse",
+                "source": "auto",
+                "stereo": true,
+                "reverse": false,
+                "bar_delimiter": 0,
+                "monstercat": false,
+                "waves": false,
+                "noise_reduction": 0.77,
+                "input_delay": 2,
+                "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+                "actions": {
+                           "on-click-right": "mode"
+                           }
+            },
+            "battery": {
+                "interval": 10,
+                "states": {
+                    "warning": 30,
+                    "critical": 15
+                },
+                "format-time": "{H}:{M:02}",
+                "format": "{icon}  {capacity}% ",
+                "format-charging": "󰂄 {capacity}%",
+                "format-charging-full": "󰂅 {capacity}%",
+                "format-full": "{icon} {capacity}%",
+                "format-icons": [
+                    "󰂃",
+                    "󰁼",
+                    "󰁿",
+                    "󰂁",
+                    "󰁹"
+                ],
+                "tooltip": false
+            },
+
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
+    "privacy": {
+        "icon-spacing": 4,
+        "icon-size": 18,
+        "transition-duration": 250,
+        "modules": [
+            {
+                "type": "screenshare",
+                "tooltip": true,
+                "tooltip-icon-size": 24
+            },
+            {
+                "type": "audio-out",
+                "tooltip": true,
+                "tooltip-icon-size": 24
+            },
+            {
+                "type": "audio-in",
+                "tooltip": true,
+                "tooltip-icon-size": 24
+            }
+        ]
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "󰖩 {bandwidthDownBytes} ",
+        "format-ethernet": "",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": " 󰖪 ",
+        "interval": 5
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": " {icon} {volume}% ",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        // "format-bluetooth-muted": " {icon} {format_source}",
+        // "format-muted": " {format_sou/rce}",
+        // "format-source": "{volume}% ",
+        // "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    }
+}

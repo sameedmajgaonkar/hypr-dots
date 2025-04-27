@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/sameed/Pictures/wallpapers/LegionGoFuturistic.jpg"
+let background = "#120d15"
+let foreground = "#d8ccd6"
+let cursor     = "#d8ccd6"
+
+" Colors
+let color0  = "#120d15"
+let color1  = "#A7445A"
+let color2  = "#314F8E"
+let color3  = "#5C6895"
+let color4  = "#A1778D"
+let color5  = "#7289BB"
+let color6  = "#A291A6"
+let color7  = "#d8ccd6"
+let color8  = "#978e95"
+let color9  = "#A7445A"
+let color10 = "#314F8E"
+let color11 = "#5C6895"
+let color12 = "#A1778D"
+let color13 = "#7289BB"
+let color14 = "#A291A6"
+let color15 = "#d8ccd6"

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/sameed/Pictures/wallpapers/car.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#120e12",
+        "foreground": "#adaedc",
+        "cursor": "#adaedc"
+    },
+    "colors": {
+        "color0": "#120e12",
+        "color1": "#383C89",
+        "color2": "#28319B",
+        "color3": "#443A85",
+        "color4": "#5D3097",
+        "color5": "#344490",
+        "color6": "#605D94",
+        "color7": "#adaedc",
+        "color8": "#79799a",
+        "color9": "#383C89",
+        "color10": "#28319B",
+        "color11": "#443A85",
+        "color12": "#5D3097",
+        "color13": "#344490",
+        "color14": "#605D94",
+        "color15": "#adaedc"
+    }
+}
