@@ -18,7 +18,7 @@ fi
 install_dependencies() {
   echo "Installing dependencies..."
   sudo pacman -Syy
-  paru -S hyprland-git swww-git vscodium-bin rofi-power-menu rofi-wayland waybar gradience swaync whitesur-icon-theme vimix-cursors kitty xdg-desktop-portal-hyprland rofi-bluetooth-git
+  paru -S hyprland-git swww-git zed telegram-desktop brave-bin rofi-power-menu rofi-wayland waybar gradience swaync whitesur-icon-theme vimix-cursors kitty xdg-desktop-portal-hyprland rofi-bluetooth-git
   sudo pacman -S python-pywal kitty brightnessctl grim slurp pywalfox pipewire wireframe
 }
 
@@ -39,7 +39,7 @@ setup_hyprland() {
 
 setup_theme(){
   echo "Setting up theme..."
-  gsettings set org.gnome.desktop.interface cursor-theme 'Vimix Cursors - White' 
+  gsettings set org.gnome.desktop.interface cursor-theme 'Vimix Cursors - White'
   gsettings set org.gnome.desktop.interface cursor-size 24
   sh $HOME/theme.sh
 }
