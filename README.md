@@ -16,8 +16,5 @@
 ### 🚀 I N S T A L L
 
 ```bash
-    git clone https://github.com/sameedmajgaonkar/hypr-dots.git
-    cd hypr-dots
-    chmod +x ./install.sh
-    sudo ./install.sh
+    sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/sameedmajgaonkar/hypr-dots/refs/heads/main/install.sh)"
 ```
